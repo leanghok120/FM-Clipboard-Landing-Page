@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap");
+
 /* General */
 *,
 *::before,
@@ -9,6 +11,7 @@
 
 body {
   min-height: 100vh;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
 img {
@@ -17,9 +20,11 @@ img {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 18px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  font-weight: bold;
+  font-style: italic;
 }
