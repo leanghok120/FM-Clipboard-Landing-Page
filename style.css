@@ -19,25 +19,33 @@ img {
   max-width: 100%;
 }
 
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  color: hsl(210, 10%, 33%);
+  font-size: 40px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 .desc-p {
   color: hsl(201, 11%, 66%);
   font-size: 18px;
   text-align: center;
 }
 
-.header-text {
-  color: hsl(210, 10%, 33%);
-  font-size: 40px;
-  margin-bottom: 15px;
-  text-align: center;
+.text-section {
+  max-width: 675px;
 }
 
 .hero-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 60vh;
+  margin-bottom: 6rem;
   background-image: url(images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -48,18 +56,9 @@ img {
   margin-bottom: 5rem;
 }
 
-@media all and (max-width: 600px) {
-  .hero-section {
-    background-image: url(images/bg-header-mobile.png);
-  }
-}
-
-.hero-text {
-  max-width: 650px;
-}
-
 .btn-container {
   display: flex;
+  justify-content: center;
   gap: 10px;
   margin-top: 3rem;
   flex-wrap: wrap;
@@ -94,9 +93,81 @@ img {
   box-shadow: 0 3px 1px hsl(233, 80%, 59%);
 }
 
+.feature-text {
+  margin-bottom: 5rem;
+}
+
+.showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  width: 100%;
+}
+
+.computer-img {
+  width: 110%;
+}
+
+.text-container {
+  max-width: 400px;
+  align-self: center;
+}
+
+.feature-p,
+.feature-header {
+  text-align: left;
+}
+
+.feature-header {
+  font-size: 30px;
+}
+
+.feature-p {
+  margin-bottom: 4em;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    padding: 10px 25px;
+  }
+
+  .desc-p {
+    font-size: 20px;
+  }
+
+  .hero-section {
+    background-image: url(images/bg-header-mobile.png);
+    margin-bottom: 13rem;
+  }
+
+  .logo-img {
+    margin: 2rem 0;
+  }
+
+  .download-btn {
+    width: 100%;
+  }
+
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-container {
+    width: 90%;
+  }
+
+  .feature-p,
+  .feature-header {
+    text-align: center;
+  }
+}
+
 .attribution {
   font-size: 18px;
   text-align: center;
+  margin-top: 10rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
