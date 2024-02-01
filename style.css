@@ -24,6 +24,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 9rem;
 }
 
 .header-text {
@@ -45,7 +46,6 @@ img {
 
 .hero-section {
   height: 60vh;
-  margin-bottom: 6rem;
   background-image: url(images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -124,6 +124,10 @@ img {
 
 .feature-p {
   margin-bottom: 4em;
+}
+
+.access-text {
+  margin-bottom: 6rem;
 }
 
 @media all and (max-width: 600px) {
