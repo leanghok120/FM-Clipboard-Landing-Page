@@ -154,6 +154,12 @@ img {
   font-size: 28px;
 }
 
+.company-section {
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
 @media all and (max-width: 600px) {
   .container {
     padding: 10px 25px;
@@ -196,6 +202,10 @@ img {
     height: 100%;
     gap: 5rem;
     margin-top: 5em;
+  }
+
+  .company-section {
+    flex-direction: column;
   }
 }
 
