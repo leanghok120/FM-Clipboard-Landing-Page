@@ -130,6 +130,30 @@ img {
   margin-bottom: 6rem;
 }
 
+.col-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 50vh;
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.feature-img {
+  margin-bottom: 30px;
+}
+
+.col-feature-header {
+  font-size: 28px;
+}
+
 @media all and (max-width: 600px) {
   .container {
     padding: 10px 25px;
@@ -165,6 +189,13 @@ img {
   .feature-p,
   .feature-header {
     text-align: center;
+  }
+
+  .col-container {
+    flex-direction: column;
+    height: 100%;
+    gap: 5rem;
+    margin-top: 5em;
   }
 }
 
