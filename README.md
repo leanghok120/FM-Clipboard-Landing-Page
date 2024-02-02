@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/semiresponsive-landing-page-with-flexbox-fFsiBqpDvb)
 - Live Site URL: [Live Site](https://fm-clipboard-page.netlify.app/)
 
 ## My process
