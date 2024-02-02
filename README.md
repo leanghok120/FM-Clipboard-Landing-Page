@@ -54,5 +54,5 @@ In the future, I will try to make the footer more responsive and also turn this 
 
 ## Author
 
-- Website - [Leanghok](https://github.com/leanghok120)
+- Website - [Leanghok](https://socials-link.netlify.app/)
 - Frontend Mentor - [@leanghok120](https://www.frontendmentor.io/profile/leanghok120)
